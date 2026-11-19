@@ -15,4 +15,3 @@ hashmap ={}
 for i in range(0,len(num)):
     hashmap[num[i]] = hashmap.get(num[i],0)+1
 print(hashmap[8])
-
